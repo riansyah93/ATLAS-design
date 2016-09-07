@@ -18,7 +18,7 @@ font-weight:700
 color:#777
 }
 .text-primary,a{
-color:#264BF0
+color:#fed136
 }
 p{
 font-size:14px;
@@ -31,7 +31,7 @@ a,a.active,a:active,a:focus,a:hover{
 outline:0
 }
 a.active,a:active,a:focus,a:hover{
-color:#fec503
+color:#kkk;
 }
 .img-centered{
 margin:0 auto
@@ -42,10 +42,16 @@ background-color:#eee
 .bg-darkest-gray{
 background-color:#222
 }
+.bg-blue{
+background-color: #00579F;
+}
+.bg-white{
+background-color: #fff;
+}
 .btn-primary{
 color:#fff;
-background-color:#00579F;
-border-color:#00579F;
+background-color:#fed136;
+border-color:#fed136
 }
 .btn-primary.active,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open .dropdown-toggle.btn-primary{
 color:#fff;
@@ -154,39 +160,39 @@ font-size:2.5em
 
 }
 header{
-background-image:url(../img/header-bg.jpg);
+/*background-image:url(../img/header-bg-1.jpg);
 background-repeat:no-repeat;
 background-attachment:scroll;
 background-position:center center;
 -webkit-background-size:cover;
 -moz-background-size:cover;
 background-size:cover;
--o-background-size:cover;
+-o-background-size:cover;*/
 text-align:center;
 color:#fff
 }
-header .intro-text{
-padding-top:100px;
-padding-bottom:50px
+header .intro-text {
+padding-top: 100px;
+padding-bottom: 50px;
 }
-header .intro-text .intro-lead-in{
-font-family:"Droid Serif","Signika",Helvetica,Arial,sans-serif;
-font-style:italic;
-font-size:22px;
-line-height:22px;
-margin-bottom:25px
+header .intro-text .intro-lead-in {
+font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-style: italic;
+font-size: 22px;
+line-height: 22px;
+margin-bottom: 25px;
 }
-header .intro-text .intro-heading{
-font-family:Oleo Script,"Signika",Helvetica,Arial,sans-serif;
-font-weight:700;
-font-size:50px;
-line-height:50px;
-margin-bottom:25px
+header .intro-text .intro-heading {
+font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 700;
+font-size: 50px;
+line-height: 50px;
+margin-bottom: 25px;
 }
-@media (min-width:768px){
-header .intro-text{
-padding-top:250px;
-padding-bottom:200px
+@media (min-width: 768px) {
+header .intro-text {
+padding-top: 225px;
+padding-bottom: 200px;
 }
 header .intro-text .intro-lead-in{
 font-family:"Droid Serif","Signika",Helvetica,Arial,sans-serif;
@@ -535,14 +541,14 @@ section#contact .text-danger{
 color:#e74c3c
 }
 footer{
-padding:25px 0;
-text-align:center;
-background-color: #00579F;
+padding:25px 0 0;
+text-align:center
 }
 footer span.copyright{
 line-height:40px;
 text-transform:uppercase;
-text-transform:none
+text-transform:none;
+color: #fed136;
 }
 footer ul.quicklinks{
 margin-bottom:0;
